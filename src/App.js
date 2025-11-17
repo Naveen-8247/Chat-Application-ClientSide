@@ -6,7 +6,7 @@ import TableResponse from './components/TableResponse';
 import ThemeToggle from './components/ThemeToggle';
 import AnswerFeedback from './components/AnswerFeedback';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://chat-application-server-fggy.onrender.com/api';
 
 const ChatWindow = ({ theme, toggleTheme }) => {
   const { sessionId } = useParams();
